@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:fillViewport="true">
+
+	<LinearLayout
+		android:orientation="vertical"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content">
+
+		<!-- Password Label -->
+		<TextView android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:text="Password"/>
+
+		<EditText android:id="@+id/reg_password"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:password="true"
+			android:singleLine="true"/>
+
+		<Button android:id="@+id/btnRegister"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:text="Register"/>
+
+
+	</LinearLayout>
+</ScrollView>
+

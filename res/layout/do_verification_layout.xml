@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:fillViewport="true">
+
+	<LinearLayout
+		android:orientation="vertical"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content">
+
+		<!--  Email Label -->
+		<TextView android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+
+			android:text="Email"/>
+		<EditText android:id="@+id/reg_email"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:singleLine="true"/>
+
+		<!-- verification Label -->
+		<TextView android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:text="Verification Code"/>
+
+		<EditText android:id="@+id/reg_password"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:password="true"
+			android:singleLine="true"/>
+
+		<Button android:id="@+id/btnConfirm"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:text="CONFIRM"/>
+
+	</LinearLayout>
+</ScrollView>
+
